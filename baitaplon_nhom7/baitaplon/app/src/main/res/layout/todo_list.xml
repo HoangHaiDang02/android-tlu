@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên công việc"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_weight="0.5"
+        android:id="@+id/tencv">
+    </TextView>
+
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        android:src="@drawable/ic_launcher__done"
+        android:id="@+id/done"></ImageView>
+
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        android:src="@drawable/ic_launcher__edit"
+        android:id="@+id/edit"></ImageView>
+
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        android:src="@drawable/ic_launcher_delete"
+        android:id="@+id/delete"></ImageView>
+
+</LinearLayout>
